@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+body {
+    background-color: rgb(47, 46, 48);
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+header::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: gray;
+    position: absolute;
+    bottom: 690px;
+}
+header ul {
+    display: flex;
+}
+header .hm {
+    color: #fff;
+    font-weight: 700;
+}
+header li {
+    margin: 20px;
+}
+header a {
+    color: grey;
+}
+header a:hover {
+    color: #fff;
+    font-weight: 700;
+}
+hr {
+    color: red;
+}
+
+/* contect */
+
+
+.contect {
+    padding-top: 30px;
+    width: 450px;
+    margin-left: 35%;
+}
+.min-info {
+    display: flex;
+    justify-content: center;
+}
+.min-info h3 {
+    margin: 50px;
+    font-weight: 300;
+    color: gray;
+}
+.min-info h3::after {
+    content: "";
+    width: 230px;
+    height: 3px;
+    background: gray;
+    position: absolute;
+    bottom: 550px;
+    left: 780px;
+}
+.min-info .hm {
+    color: #fff;
+    font-weight: 700;
+}
+.hm::after {
+    content: "";
+    width: 220px;
+    height: 3px;
+    background: rgb(93, 93, 244);
+    position: absolute;
+    bottom: 550px;
+    left: 560px;
+}
+.contect label {
+    color: gray;
+}
+.contect input {
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+}
+.contect p {
+    text-align: right;
+    padding-top: 20px;
+}
+.contect p a {
+    color: blue;
+}
+.contect button {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(93, 93, 244);
+    border-color: rgb(93, 93, 244);
+}
+.contect button a {
+    color: #fff;
+}
+.contect .center {
+    text-align: center;
+    color: grey;
+}
+.kotak {
+    display: flex;
+    justify-content: center;
+}
+.kotak::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: gray;
+    position: absolute;
+    bottom: 170px;
+    left: 0;
+}
+.kotak button {
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    background-color: transparent;
+    border-color: rgb(166, 156, 156);
+    border-radius: 5px;
+}
+.kotak button img {
+    margin-top: 5px;
+}
+.kotak button a {
+    color: #fff;
+    align-items: center;
+    margin-left: 5px;
+}
+
+/* contact */
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.contact ul li{
+    color: grey;
+    margin: 10px;
+}
+.contact ul .di {
+    display: flex;
+}
+.contact ul .da {
+    display: flex;
+}
+.contact ul .da button {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    border-color: #fff;
+    border-radius: 5px;
+}
+.da button img {
+    margin-left: 2px;
+}
+.da button p {
+    color: #fff;
+    padding-top: 5px;
+    margin-left: 2px;
+}
